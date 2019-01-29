@@ -1,0 +1,17 @@
+mq1:
+  mq-info:
+    queue-manager: QM1
+    channel: DEV.ADMIN.SVRCONN
+    conn-name: localhost(1414)
+    user: admin
+    password: passw0rd
+mq2:
+  mq-info:
+    queue-manager: QM2
+    channel: DEV.ADMIN.SVRCONN
+    conn-name: localhost(1415)
+    user: admin
+    password: passw0rd
+logging:
+  level:
+    ROOT: info
